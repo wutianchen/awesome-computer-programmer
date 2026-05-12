@@ -1,0 +1,44 @@
+version: '3'
+
+vars:
+  TERRAFORM_VERSION: 1.7.5
+
+tasks:
+  install-docker:
+    cmds:
+      - sudo yum update
+      - sudo yum install docker -y
+      - sudo usermod -a -G docker ec2-user
+      - id ec2-user  # ensure ec2-user in docker group
+      - newgrp docker
+  
+  start-docker-service:
+    cmds:
+      - sudo systemctl enable docker.service
+      - sudo systemctl start docker.service
+  
+  install-terraform:
+    cmds:
+      - wget https://releases.hashicorp.com/terraform/{{.TERRAFORM_VERSION}}/terraform_{{.TERRAFORM_VERSION}}_linux_amd64.zip
+      - unzip terraform_{{.TERRAFORM_VERSION}}_linux_amd64.zip && rm terraform_{{.TERRAFORM_VERSION}}_linux_amd64.zip
+      - sudo mv terraform /usr/local/bin/
+  
+  install-python3:
+    desc: Deployment prerequisites. install all python related tools
+    cmds:
+      - sudo yum install -y python3-pip
+  
+  install-tflint:
+    desc: terraform static code analysis tool https://github.com/terraform-linters/tflint
+    cmds:
+      - curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
+  
+  install-terraform-docs:
+    desc: https://terraform-docs.io/user-guide/installation/
+    cmds:
+      - curl -sSLo ./terraform-docs.tar.gz https://terraform-docs.io/dl/v0.17.0/terraform-docs-v0.17.0-$(uname)-amd64.tar.gz
+      - tar -xzf terraform-docs.tar.gz
+      - chmod +x terraform-docs
+      - sudo mv terraform-docs /usr/bin/terraform-docs
+    status:
+      - go version

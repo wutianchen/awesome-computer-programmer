@@ -47,23 +47,44 @@ In short: **a project is where your code lives; a session is a conversation abou
 
 ---
 
-## Toolbox
+## Harness
 
-* Tool
+#### MCP Server
+
+[MCP Server Protocol](https://modelcontextprotocol.io/docs/getting-started/intro) is an open-source standard for connecting AI applications to external systems. Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect electronic devices, MCP provides a standardized way to connect AI applications to external systems
+
 * [mcp](./mcp.md)
+
+#### Skill
+
+[Agent Skill](https://agentskills.io/home) are a lightweight, open format for extending AI agent capabilities with specialized knowledge and workflows
+
+* [openskills](https://www.skillsdirectory.com/)
 * [skill](./skill.md) (previous feature `custom slash command` merged into `skill` ?)
-* [subagent](./subsgent.md)
-* Agent
-* hook
-* plugin
-* claude bultin slash command (complementary of the custom slash command)
-* [coworkder](https://claude.com/product/cowork)
-* Agent Teams
+* [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
+
+#### Language Server Protocol
+
+[Language Server Protocol](https://microsoft.github.io/language-server-protocol/) is meant to provide the language-specific smarts and communicate with development tools over a protocol that enables inter-process communication. See the list of [implementations](https://microsoft.github.io/language-server-protocol/implementors/servers/)
+
+LSP can be used together with mcp-lsp server like
+
+* [serena](https://github.com/oraios/serena) top consideration
+
+other minor ones (based on github stars):
+
+* [mcp-language-server](https://github.com/isaacphi/mcp-language-server)
+* [lsp-mcp](https://github.com/jonrad/lsp-mcp)
 
 
+### Tool
 
-Questions:
-* when is the context of skill and mcp injected into claude main agent 
+tbd.
+
+### Hook
+
+tbd.
+
 
 
 ## Relevant source of information
@@ -71,9 +92,15 @@ Questions:
 - [Antropic Engineering Blog](https://www.anthropic.com/engineering)
 - [Antropic Blog](https://claude.com/blog)
 - [Antropic Academy](https://www.anthropic.com/learn)
-
-
-## Resources
-
 * [claude plugins](https://claude.com/plugins)
-* [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
+
+
+## Questions
+
+* when is the context of skill and mcp injected into claude main agent 
+
+* [subagent](./subsgent.md)
+* Agent
+* claude bultin slash command (complementary of the custom slash command)
+* [coworkder](https://claude.com/product/cowork)
+* Agent Teams
