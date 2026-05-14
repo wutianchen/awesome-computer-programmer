@@ -4,7 +4,7 @@
 
 
 
-## Tools
+## Frameworks
 
 * claude code
 * codex
@@ -22,6 +22,14 @@ https://yeachan-heo.github.io/oh-my-codex-website/
 #### [ph-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)
 
 tbd
+
+## LLM
+
+#### Benchmark
+
+* [SWE-bench](https://www.swebench.com/)
+
+
 
 ## Open Standards
 

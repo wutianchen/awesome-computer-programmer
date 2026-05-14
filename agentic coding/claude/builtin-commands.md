@@ -66,3 +66,15 @@ interactive command for claude memory management
 ## /tasks
 
 list and manage background tasks
+
+## /ide
+
+integration of the ide
+
+## /init
+
+Initialize project with CLAUDE.md guide
+
+## /review
+
+tbd
