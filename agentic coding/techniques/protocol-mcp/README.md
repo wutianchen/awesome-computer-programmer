@@ -1,5 +1,21 @@
 # MCP
 
+## MCP Marketplace
+
+* https://mcp.so/
+* https://glama.ai/mcp
+* https://smithery.ai/
+* https://mcpmarket.com/
+
+
+## MCP Tools
+
+* [mcp-memory-libsql](https://github.com/joleyline/mcp-memory-libsql)
+* [brave-search-mcp](https://github.com/mikechao/brave-search-mcp)
+* [mcp polygon](https://github.com/polygon-io/mcp_polygon)
+
+## What is MCP
+
 There are three components under MCP
 
 * client
@@ -24,19 +40,6 @@ So, there are three kinds of setting of MCP
 
 what is a mcp client ? what is a mcp server ? why we need this client-server pair structure ?
 
-
-## MCP Marketplace
-
-* https://mcp.so/
-* https://glama.ai/mcp
-* https://smithery.ai/
-
-
-## MCP Tools
-
-* [mcp-memory-libsql](https://github.com/joleyline/mcp-memory-libsql)
-* [brave-search-mcp](https://github.com/mikechao/brave-search-mcp)
-* [mcp polygon](https://github.com/polygon-io/mcp_polygon)
 
 
 ## Articles

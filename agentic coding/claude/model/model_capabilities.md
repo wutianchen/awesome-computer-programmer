@@ -1,0 +1,3 @@
+# Model Capabilities
+
+https://platform.claude.com/docs/en/build-with-claude/extended-thinking
