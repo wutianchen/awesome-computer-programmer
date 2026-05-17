@@ -7,27 +7,6 @@ There are two categories of claude toolbox, native builtin and customize. Like t
 https://claudemarketplaces.com/
 
 
-## Modes
-
-```
-┌──────────────────┬─────────────────┬─────────────────────────────────────────────────────────────────────────────┐
-│       Mode       │     Toggle      │                                 Description                                │
-├──────────────────┼─────────────────┼─────────────────────────────────────────────────────────────────────────────┤
-│ Plan Mode        │ Shift+Tab       │ Read-only analysis; creates a plan before making changes                   │
-├──────────────────┼─────────────────┼─────────────────────────────────────────────────────────────────────────────┤
-│ Fast Mode        │ /fast           │ 2.5x faster responses, same Opus 4.6 model                                │
-├──────────────────┼─────────────────┼─────────────────────────────────────────────────────────────────────────────┤
-│ Memory Mode      │ /memory         │ Persistent file-based memory across sessions (on by default)               │
-├──────────────────┼─────────────────┼─────────────────────────────────────────────────────────────────────────────┤
-│ Extended         │ Option+T /      │ Deep reasoning for complex problems; adjust depth with /effort             │
-│ Thinking         │ Alt+T           │ low|medium|high|max                                                        │
-├──────────────────┼─────────────────┼─────────────────────────────────────────────────────────────────────────────┤
-│ Auto-Accept Mode │ Shift+Tab       │ Automatically approves edits without asking                                │
-└──────────────────┴─────────────────┴─────────────────────────────────────────────────────────────────────────────┘
-```
-
-The first three (Plan, Auto-Accept, Normal) are permission modes you cycle through with Shift+Tab. Fast mode, memory, and thinking mode are independent toggles you can combine with any permission mode.
-
 ## Session vs Project
 
 A **session** is a conversation with Claude Code. Each time you run `claude`, you start a new session. It includes all messages, tool calls, and results within that conversation.
