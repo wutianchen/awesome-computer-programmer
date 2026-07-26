@@ -1,1 +1,0 @@
-https://claude.com/plugins/design

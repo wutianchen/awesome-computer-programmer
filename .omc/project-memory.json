@@ -1,0 +1,147 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1784999280430,
+  "projectRoot": "/Users/tianchenwu/Projects/personal/awesome-computer-programmer",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "agentic coding": {
+      "path": "agentic coding",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1784999280369,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "developer_experience": {
+      "path": "developer_experience",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1784999280369,
+      "keyFiles": [
+        "Dockerfile"
+      ]
+    },
+    "distributed computing": {
+      "path": "distributed computing",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1784999280369,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "programming languages": {
+      "path": "programming languages",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1784999280370,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "programming primitives": {
+      "path": "programming primitives",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1784999280370,
+      "keyFiles": [
+        "README.md",
+        "callback.md"
+      ]
+    },
+    "quantum computing": {
+      "path": "quantum computing",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1784999280370,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "snippets": {
+      "path": "snippets",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1784999280371,
+      "keyFiles": [
+        "Taskfile_ec2_setup.yaml",
+        "assume_role.md",
+        "calculate_aws_signature_v4.md",
+        "gitlab_group_clone_recursively.py",
+        "setup_ec2_machine.md"
+      ]
+    },
+    "testing technique": {
+      "path": "testing technique",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1784999280371,
+      "keyFiles": [
+        "README.md",
+        "mutation_testing.md"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "agentic coding/README.md",
+      "accessCount": 3,
+      "lastAccessed": 1785075399712,
+      "type": "file"
+    },
+    {
+      "path": "agentic coding/oh-my-claude.md",
+      "accessCount": 2,
+      "lastAccessed": 1781961213394,
+      "type": "file"
+    },
+    {
+      "path": "agentic coding/omc/omc.md",
+      "accessCount": 2,
+      "lastAccessed": 1781962020791,
+      "type": "file"
+    },
+    {
+      "path": "agentic coding/opencode/opencode.md",
+      "accessCount": 1,
+      "lastAccessed": 1785074110003,
+      "type": "file"
+    },
+    {
+      "path": "agentic coding/the-loop.md",
+      "accessCount": 1,
+      "lastAccessed": 1785075940558,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

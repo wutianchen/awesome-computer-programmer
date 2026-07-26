@@ -1,3 +1,0 @@
-# OMX
-
-* greenfield and brownfield
